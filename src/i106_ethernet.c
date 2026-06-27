@@ -3,7 +3,7 @@
  i106_decode_ethernet.c
 
  ****************************************************************************/
-
+#if 0
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -57,3 +57,4 @@ I106Status I106_Decode_NextEthernetF0(EthernetF0_Message *msg){
 
     return I106_OK;
 }
+#endif

@@ -4,7 +4,7 @@
  Created by: Tommaso Falchi Delitala <volalto86@gmail.com>
 
  ****************************************************************************/
-
+#if 0
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -86,3 +86,4 @@ void FillInMessagePointers(CAN_Message *msg){
     // Add the data length, if it is odd, account for the filler byte we will skip
     msg->BytesRead+=  msg->IPH->Length + (msg->IPH->Length % 2);
 }
+#endif
